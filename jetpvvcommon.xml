@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.3.0" method="upgrade">
+  <name>JETPVVcommon</name>
+  <author>José A. Cidre Bardelás</author>
+  <authorEmail>info@joomlaempresa.es</authorEmail>
+  <authorUrl>http://www.joomlaempresa.es</authorUrl>
+  <creationDate>2018-06-25</creationDate>
+  <copyright>Copyright (C) 2012-2015 José A. Cidre Bardelás and Joomla Empresa - All Rights Reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+  <version>3.1.1</version>
+  <description>Common functions of Joomla Empresa TPVV for VirtueMart v.3.1.1</description>
+  <files folder="frontend">
+    <filename>index.html</filename>
+  </files>
+  <!-- Installation script -->
+  <scriptfile>script.jetpvvcommon.php</scriptfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">instalar/instalar.mysql.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">instalar/desinstalar.mysql.sql</file>
+    </sql>
+  </uninstall>
+  <administration>
+    <menu img="components/com_jetpvvcommon/assets/images/com_jetpvvcommon-16.png">JETPVVcommon</menu>
+    <files folder="backend">
+      <filename>jetpvvcommon.php</filename>
+      <filename>version.php</filename>
+      <filename>index.html</filename>
+      <folder>assets</folder>
+      <folder>instalar</folder>
+      <folder>helpers</folder>
+    </files>
+  <languages folder="language/backend">
+    <language tag="en-GB">en-GB/en-GB.com_jetpvvcommon.ini</language>
+    <language tag="en-GB">en-GB/en-GB.com_jetpvvcommon.sys.ini</language>
+    <language tag="gl-ES">gl-ES/gl-ES.com_jetpvvcommon.ini</language>
+    <language tag="gl-ES">gl-ES/gl-ES.com_jetpvvcommon.sys.ini</language>
+    <language tag="ca-ES">ca-ES/ca-ES.com_jetpvvcommon.ini</language>
+    <language tag="ca-ES">ca-ES/ca-ES.com_jetpvvcommon.sys.ini</language>
+    <language tag="es-ES">es-ES/es-ES.com_jetpvvcommon.ini</language>
+    <language tag="es-ES">es-ES/es-ES.com_jetpvvcommon.sys.ini</language>
+  </languages>
+  </administration>
+</extension>

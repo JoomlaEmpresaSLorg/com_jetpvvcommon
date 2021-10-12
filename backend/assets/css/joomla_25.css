@@ -1,0 +1,190 @@
+/*
+ *      Joomla Empresa TPVV Common Component
+ *      @package Joomla Empresa TPVV Common Component
+ *      @subpackage Content
+ *      @author José António Cidre Bardelás
+ *      @copyright Copyright (C) 2011-2015 José António Cidre Bardelás and Joomla Empresa. All rights reserved
+ *      @license GNU/GPL v3 or later
+ *      
+ *      Contact us at info@joomlaempresa.com (http://www.joomlaempresa.es)
+ *      
+ *      This file is part of Joomla Empresa TPVV Common Component.
+ *      
+ *          Joomla Empresa TPVV Common Component is free software: you can redistribute it and/or modify
+ *          it under the terms of the GNU General Public License as published by
+ *          the Free Software Foundation, either version 3 of the License, or
+ *          (at your option) any later version.
+ *      
+ *          Joomla Empresa TPVV Common Component is distributed in the hope that it will be useful,
+ *          but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *          GNU General Public License for more details.
+ *      
+ *          You should have received a copy of the GNU General Public License
+ *          along with Joomla Empresa TPVV Common Component.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+.row-fluid {
+	width: 100%;
+	*zoom: 1;
+}
+.row-fluid:before,
+.row-fluid:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.row-fluid:after {
+	clear: both;
+}
+.alert {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 18px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #faebcc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.alert,
+.alert h4 {
+	color: #8a6d3b;
+}
+.alert-info {
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #31708f;
+}
+.alert-block {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+fieldset {
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+}
+legend {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 18px;
+	font-size: 19.5px !important;
+	line-height: 36px;
+	color: #333 !important;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+legend + .control-group {
+	margin-top: 18px;
+	-webkit-margin-top-collapse: separate;
+}
+.control-group {
+	margin-bottom: 9px;
+}
+legend + .control-group {
+	margin-top: 18px;
+	-webkit-margin-top-collapse: separate;
+}
+.form-horizontal .control-group {
+	margin-bottom: 18px;
+	*zoom: 1;
+}
+.form-horizontal .control-group:before,
+.form-horizontal .control-group:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.form-horizontal .control-group:after {
+	clear: both;
+}
+.form-horizontal .control-label {
+	float: left;
+	width: 160px;
+	padding-top: 5px;
+	text-align: right;
+}
+.form-horizontal .controls {
+	*display: inline-block;
+	*padding-left: 20px;
+	margin-left: 180px;
+	*margin-left: 0;
+}
+.form-horizontal .controls:first-child {
+	*padding-left: 180px;
+}
+.row-fluid .span12 {
+	width: 100%;
+	*width: 99.946808510638%;
+}
+.row-fluid .offset4 {
+	margin-left: 36.170212765957%;
+	*margin-left: 36.063829787234%;
+}
+.input-large,
+.input-xlarge,
+.input-xxlarge,
+input[class*="span"],
+select[class*="span"],
+textarea[class*="span"],
+.uneditable-input {
+	display: block;
+	width: 100%;
+	min-height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.input-xlarge {
+	width: 270px;
+}
+input[type="text"], input[type="password"] {
+	min-height: 20px;
+}
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+	cursor: pointer;
+}
+label,
+input,
+button,
+select,
+textarea {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+.label,
+.badge {
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 10.998px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #fff;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #999;
+}
+.label {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.label-important,
+.badge-important {
+	background-color: #a94442;
+}
